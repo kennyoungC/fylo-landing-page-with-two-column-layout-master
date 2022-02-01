@@ -20,6 +20,7 @@ body {
   align-items: center;
   font-family: "Raleway";
   padding: 32px;
+  margin-bottom: 96px;
 }
 .nav-list {
   display: flex;
@@ -40,6 +41,17 @@ body {
   background-image: url(images/logo.svg);
   width: 166px;
   height: 49px;
+}
+.hero {
+  display: flex;
+  align-items: center;
+}
+.illustration-1 {
+  background: url(images/illustration-1.svg);
+  width: 800px;
+  height: 400px;
+  /* width: 1133px;
+  height: 839px; */
 }
 .attribution {
   font-size: 11px;
