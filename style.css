@@ -10,7 +10,7 @@ body {
   line-height: 1.5;
 }
 .container {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
   margin-bottom: 96px;
 }
@@ -45,13 +45,32 @@ body {
 .hero {
   display: flex;
   align-items: center;
+  gap: 25px;
 }
-.illustration-1 {
-  background: url(images/illustration-1.svg);
-  width: 800px;
-  height: 400px;
-  /* width: 1133px;
-  height: 839px; */
+.hero-header {
+  font-weight: 700;
+  color: hsl(243, 87%, 12%);
+  line-height: 1.1;
+  margin-bottom: 24px;
+}
+.hero-text {
+  color: hsl(238, 22%, 44%);
+  margin-bottom: 24px;
+}
+.input {
+  width: 50%;
+  margin-bottom: 12px;
+  height: 40px;
+  margin-right: 12px;
+}
+.get-started {
+  color: hsl(240, 75%, 98%);
+  border: none;
+  padding: 8px 48px;
+  background-color: hsl(224, 93%, 58%);
+}
+form:focus {
+  border: 2px solid red;
 }
 .attribution {
   font-size: 11px;
