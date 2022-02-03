@@ -17,6 +17,9 @@ p {
   margin: 0 auto;
   margin-bottom: 96px;
 }
+/*******************/
+/* header section */
+/*******************/
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -84,6 +87,10 @@ p {
   text-align: center;
   margin-right: 12px;
 } */
+/*******************/
+/* section- how */
+/*******************/
+
 .section-how {
   background-image: url(images/bg-curve-desktop.svg);
   padding: 96px 0 96px 0;
@@ -160,7 +167,34 @@ p {
 .name-tag {
   color: hsl(238, 22%, 44%);
 }
-
+/*******************/
+/* cta section */
+/*******************/
+.cta-box {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+.cta-text-box {
+  /* width: 30%; */
+}
+.input-2 {
+  width: 420px;
+  margin-bottom: 12px;
+  height: 40px;
+  padding: 12px;
+  background-color: white;
+  margin-right: 6px;
+}
+.form-btn {
+  margin-left: 4px;
+}
+.get-started-2 {
+  color: hsl(240, 75%, 98%);
+  border: none;
+  padding: 8px 20px;
+  background-color: hsl(224, 93%, 58%);
+}
 .attribution {
   font-size: 11px;
   text-align: center;
