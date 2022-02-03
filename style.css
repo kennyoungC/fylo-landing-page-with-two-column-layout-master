@@ -128,6 +128,7 @@ p {
   color: hsl(170, 45%, 43%);
   font-weight: 500;
   text-decoration: none;
+  transition: all 0.3s;
 }
 .section-how-link:hover,
 .section-how-link:visited {
@@ -219,6 +220,10 @@ p {
 /*******************/
 .footer {
   background-color: hsl(243, 87%, 12%);
+  padding: 32px 0;
+}
+.footer-section {
+  margin-bottom: 0;
 }
 .footer-box {
   width: 70%;
@@ -228,8 +233,9 @@ p {
   margin-top: 24px;
 }
 .footer-logo {
-  filter: grayscale(100);
+  filter: invert(2);
 }
+
 .contact-list {
   display: flex;
   flex-direction: column;
@@ -273,11 +279,28 @@ p {
   display: flex;
   gap: 12px;
 }
+.social-icons li {
+  color: #fff;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
-  margin-top: 96px;
+  margin-top: 48px;
+  color: #fff;
+  font-size: 13px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+.attribution a:link,
+.attribution a:visited {
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+.attribution a:hover,
+.attribution a:active {
+  text-decoration: underline;
+  font-weight: bolder;
 }
