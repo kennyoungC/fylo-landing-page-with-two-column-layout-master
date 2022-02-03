@@ -76,6 +76,9 @@ p {
   padding: 8px 48px;
   background-color: hsl(224, 93%, 58%);
 }
+.get-started:hover {
+  background-color: hsl(224, 80%, 70%);
+}
 .form *:focus {
   border: none;
   outline: none;
@@ -170,13 +173,19 @@ p {
 /*******************/
 /* cta section */
 /*******************/
+.cta {
+  background-color: hsl(238, 22%, 44%);
+  padding: 32px 0;
+}
 .cta-box {
   display: flex;
   align-items: center;
-  gap: 120px;
+  gap: 140px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .cta-text-box {
-  /* width: 30%; */
+  color: hsl(240, 75%, 98%);
 }
 .input-2 {
   width: 420px;
@@ -194,6 +203,75 @@ p {
   border: none;
   padding: 8px 20px;
   background-color: hsl(224, 93%, 58%);
+}
+.get-started-2:hover {
+  background-color: hsl(224, 80%, 70%);
+}
+.form-2 *:focus {
+  border: none;
+  outline: none;
+  /* outline: 2px solid red; */
+  /*outline-offset: 8px; */
+  box-shadow: 0 0 0 1px red;
+}
+/*******************/
+/* footer section */
+/*******************/
+.footer {
+  background-color: hsl(243, 87%, 12%);
+}
+.footer-box {
+  width: 70%;
+  display: flex;
+  gap: 64px;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.footer-logo {
+  filter: grayscale(100);
+}
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 6px;
+}
+.phone-list {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  /* color: #fff; */
+}
+.footer li {
+  color: hsl(240, 75%, 98%);
+}
+.mail-list {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.link:link,
+.link:active {
+  text-decoration: none;
+  color: hsl(240, 75%, 98%);
+  transition: all 0.3s;
+}
+.link:hover,
+.link:visited {
+  text-decoration: underline;
+}
+
+.about-us,
+.contact-us {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.social-icons {
+  list-style: none;
+  display: flex;
+  gap: 12px;
 }
 .attribution {
   font-size: 11px;
