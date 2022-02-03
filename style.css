@@ -9,6 +9,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
+p {
+  margin-bottom: 0;
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -81,6 +84,83 @@ body {
   text-align: center;
   margin-right: 12px;
 } */
+.section-how {
+  background-image: url(images/bg-curve-desktop.svg);
+  padding: 96px 0 96px 0;
+}
+.section-testimonial {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.section-how-header {
+  font-weight: 600;
+  color: hsl(243, 87%, 12%);
+  line-height: 1.1;
+  margin-bottom: 24px;
+}
+.section-how-text {
+  font-size: 16px;
+  color: hsl(238, 22%, 44%);
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+.m {
+  display: inline-block;
+}
+.link-box {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border-bottom: 1px solid hsl(170, 45%, 43%);
+}
+.section-how-link {
+  color: hsl(170, 45%, 43%);
+  font-weight: 500;
+  text-decoration: none;
+}
+.section-how-link:hover,
+.section-how-link:visited {
+  color: hsl(170, 45%, 43%);
+  font-weight: bold;
+}
+.link-icon {
+  color: hsl(170, 45%, 43%);
+}
+.testimonial {
+  margin-top: 48px;
+  background-color: #fff;
+  padding: 32px 12px 32px 12px;
+  width: 60%;
+  /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);*/
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.quote-icon {
+  margin-bottom: 12px;
+}
+.testimonial-text {
+  color: hsl(238, 22%, 44%);
+}
+.image-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.image-box img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+.name {
+  color: hsl(243, 87%, 12%);
+  font-size: 16px;
+  font-weight: 600;
+}
+.name-tag {
+  color: hsl(238, 22%, 44%);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
