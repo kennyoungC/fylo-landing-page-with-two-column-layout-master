@@ -248,6 +248,7 @@ p {
   gap: 12px;
   /* color: #fff; */
 }
+.social-icons li,
 .footer li {
   color: hsl(240, 75%, 98%);
 }
@@ -283,9 +284,7 @@ p {
   display: flex;
   gap: 12px;
 }
-.social-icons li {
-  color: hsl(240, 75%, 98%);
-}
+
 .social-links {
   color: hsl(240, 75%, 98%);
   font-size: 24px;
@@ -311,4 +310,6 @@ p {
 .attribution a:active {
   text-decoration: underline;
   font-weight: bolder;
+}
+@media (max-width: 420px) {
 }
