@@ -37,6 +37,7 @@ p {
 .nav-link:visited {
   color: #222;
   text-decoration: none;
+  transition: all 0.3s;
 }
 .nav-link:hover,
 .nav-link:active {
@@ -312,4 +313,19 @@ p {
   font-weight: bolder;
 }
 @media (max-width: 420px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    width: 375px;
+  }
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .logo-box {
+    grid-row: 1;
+  }
 }
