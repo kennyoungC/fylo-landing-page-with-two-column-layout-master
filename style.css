@@ -104,6 +104,7 @@ p {
   background-image: url(images/bg-curve-desktop.svg);
   padding: 96px 0 96px 0;
 }
+
 .section-testimonial {
   display: flex;
   align-items: center;
@@ -190,6 +191,7 @@ p {
   gap: 140px;
   margin-top: 0;
   margin-bottom: 0;
+  padding: 12px 48px;
 }
 .cta-text-box {
   color: hsl(240, 75%, 98%);
@@ -383,9 +385,7 @@ p {
   }
   .section-how {
     background-image: url(images/bg-curve-mobile.svg);
-    background-size: cover;
     margin-top: 48px;
-    padding: 48px 0;
   }
   .section-how-header {
     text-align: center;
@@ -393,7 +393,7 @@ p {
   }
   .link-box {
     margin-left: 80px;
-    margin-top: 48px;
+    margin-top: 32px;
   }
   .testimonial {
     width: 100%;
@@ -401,7 +401,8 @@ p {
   .cta-box {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 12px;
+    padding: 24px 32px;
   }
   .cta-text-box {
     text-align: center;
@@ -410,7 +411,7 @@ p {
     width: 100%;
   }
   .get-started-2 {
-    padding: 8px 65px;
+    padding: 8px 55px;
   }
   h3 {
     font-weight: 600;
